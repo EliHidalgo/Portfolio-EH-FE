@@ -1,0 +1,48 @@
+.nav-bar {
+    margin: 50px;
+}
+
+.nav-bar ul, .nav-bar-titles ul {
+    display: flex;
+    padding: 0;
+    justify-content: center;
+    list-style:none; 
+}
+
+.nav-bar a:hover, .nav-bar-titles a:hover{
+    color: black;
+    font-size: 20px;
+}
+
+.nav-bar li a {
+    display: block;
+    padding: 3px 20px;
+    font-weight: 500;
+    font-size: 18px;
+    font-style: normal;
+    color: #284158; 
+    text-decoration: none;
+    font-family: 'IBM Plex Sans', sans-serif;
+    /*border-right: 1px solid #284158;*/
+}
+
+.items-navbar-bord{
+    border-right: 1px solid #284158;
+}
+
+
+/*----------Media Query----------*/
+@media all and (max-width: 768px) {
+    .nav-bar {
+        max-width: 280px;
+        margin: 50px 10px 10px;
+    }
+    .nav-bar ul {
+        display: flex;
+        flex-direction: column;
+    }
+    .items-navbar-bord{
+        border-bottom: 1px solid #284158;
+        border-right: 0;
+    }
+}

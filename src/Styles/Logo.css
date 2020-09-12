@@ -1,0 +1,49 @@
+.container-logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo-eh {
+    width: auto;
+    margin-top: 100px;
+}
+
+.occupation-name {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 38px;
+    line-height: 42px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #284158;
+    margin: 10px;
+    box-sizing: border-box;
+    width: 80%;
+}
+
+/*-----------Media Query--------*/
+@media all and (max-width: 1200px) {
+    .logo-eh {
+        margin-top: 20px;
+    }
+}
+
+@media all and (max-width: 1024px) {
+    .logo-eh {
+        margin-top: 14rem;
+    }
+}
+
+@media all and (max-width: 600px) {
+    .logo-eh {
+        max-width: 300px;
+        margin-top: 50px;
+    }
+    .occupation-name{
+        font-size: 26px;
+        
+    }
+}

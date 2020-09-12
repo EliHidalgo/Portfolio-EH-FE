@@ -1,0 +1,27 @@
+footer {
+    bottom: 0;
+    width: 100%;
+    background: #FED6B6;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+footer p {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    color: #284158;
+    margin: 20px;
+}
+
+/*-------------Media Query-------------*/
+@media all and (max-width: 500px) {
+    footer p {
+        font-weight: 600;
+        font-size: 14px;
+    }
+}

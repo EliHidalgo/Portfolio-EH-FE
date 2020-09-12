@@ -1,0 +1,24 @@
+.nav-bar-titles li a {
+    display: block;
+    padding: 3px 20px;
+    font-weight: 500;
+    font-size: 12px;
+    font-style: normal;
+    color: #284158; 
+    text-decoration: none;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.items-navbar-border {
+    border-right: 1px solid #284158;
+}
+
+/*--------Media Query-----------*/
+@media all and (max-width:500px) {
+    nav.nav-bar-titles {
+        min-width: 315px;
+    }
+    .nav-bar-titles li a {
+        padding: 3px 10px;
+    }
+}

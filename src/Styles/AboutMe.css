@@ -1,0 +1,107 @@
+.about-me-container {
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.about-me-title {
+    background-color: #FED6B6;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    color: #284158;
+}
+.section-title {
+    margin: 0;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+   /* identical to box height */
+    color: #284158;
+}
+.about-me-info {
+    background-color: #ffffff;
+    color: rgba(40, 65, 88, 0.8);
+    font-family: 'IBM Plex Serif', serif;
+    font-weight: normal;
+    font-size: 1.3rem; /* 22px*/
+    font-style: normal;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    box-sizing: border-box;
+    height: 100%;
+    text-align: left;
+}
+
+.info-p {
+    display: flex;
+    flex-direction: column;
+    padding-top: 40px;
+    height: 100%;
+    box-sizing: border-box;
+    /*background-color: royalblue;*/
+}
+
+.about-me-info p {
+    margin: 0 45px 50px 45px;
+    line-height: 2.5rem;
+}
+
+p.initial-info {
+    margin-top: 50px;
+}
+
+.highlighted-info {
+    color: #f3a566; /*#B8C8C6;*//*#755F4B;*/
+    font-weight: bold;
+}
+
+/*--------Media Query-----------*/
+@media all and (max-width: 1440px) {
+    .about-me-info, .about-me-title {
+        height: 100vh;
+        overflow: auto;
+    }
+}
+
+@media all and (max-width: 1200px) {
+    .about-me-info, .about-me-title {
+        height: 100vh;
+    }
+}
+
+@media all and (max-width: 950px) {
+    .about-me-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .about-me-info, .about-me-title {
+        width: 100%;
+        height: 100vh;
+    }
+}
+
+@media all and (max-width: 500px) {
+    h1.section-title {
+        font-size: 50px;
+    }
+    .about-me-info {
+        font-size: 17px; 
+    }
+    .about-me-info p {
+        margin: 0 35px 40px 35px;
+        line-height: 2.5rem;
+    }
+    p.initial-info {
+        margin-top: 0;
+    }
+}
