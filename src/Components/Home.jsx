@@ -7,7 +7,7 @@ import '../Styles/Home.css';
 
 const Home = () => {
     return (
-        <div>
+        <div id="home">
         <header className="header">
         <div className="banner-img"></div>
         <div className="header-info">

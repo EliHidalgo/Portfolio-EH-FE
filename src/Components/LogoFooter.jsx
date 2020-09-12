@@ -5,7 +5,7 @@ import '../Styles/LogoFooter.css';
 const LogoFooter = () => {
     return (
         <div className="container-loguito">
-             <img src={logoFooter} className="loguito-eh" alt=""/>
+             <a href="#home"><img src={logoFooter} className="loguito-eh" alt=""/></a>
                         
         </div>
     )
