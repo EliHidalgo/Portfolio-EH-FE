@@ -180,7 +180,8 @@ img.img-project {
         width: 100%;
         overflow: hidden;  
         height: 100vh;  
-        min-height: 657px ;    
+       /* min-height: 657px ; */
+                  
     }            
     .container-img-projects {
        width: 45%;
@@ -227,13 +228,13 @@ img.img-project {
 
 @media all and (max-width: 768px){
     .container-img-projects:hover .container-project-info {
-        top: 4.5rem;
+        top: 5rem;
     }
     .project-info {
         overflow: auto;  
     }
     .container-links-project {
-        bottom: 3rem;
+        bottom: 4.5rem;
     }
     .project-summary {
         font-size: 16px;

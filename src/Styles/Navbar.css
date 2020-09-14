@@ -46,3 +46,9 @@
         border-right: 0;
     }
 }
+
+@media all and (max-width: 400px) {
+    .nav-bar {
+        margin: 20px;
+    }
+}

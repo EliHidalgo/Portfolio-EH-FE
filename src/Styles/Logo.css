@@ -122,3 +122,13 @@
         
     }
 }
+
+@media all and (max-width: 400px) {
+    .logo-eh {
+        margin: 0;
+    }
+    .occupation-name{
+        font-size: 24px;
+        
+    }
+}
