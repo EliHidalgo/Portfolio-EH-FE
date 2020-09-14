@@ -135,7 +135,7 @@ h6.skill-name {
 }
 
 /*--------------Media Query------------*/
-@media all and (max-width:1200px) {
+@media all and (max-width:1440px) {
   .skills-info, .skills-title {
       height: 100vh;
       overflow: auto;

@@ -227,13 +227,13 @@ img.img-project {
 
 @media all and (max-width: 768px){
     .container-img-projects:hover .container-project-info {
-        top: 5rem;
+        top: 4.5rem;
     }
     .project-info {
         overflow: auto;  
     }
     .container-links-project {
-        bottom: 4rem;
+        bottom: 3rem;
     }
     .project-summary {
         font-size: 16px;

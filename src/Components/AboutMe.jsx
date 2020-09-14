@@ -14,9 +14,8 @@ const AboutMe = () => {
             <div className="info-p">
                 <p className="initial-info">Hi, my name is <span className="highlighted-info">Eliana Hidalgo</span>, I´m a <span
                         className="highlighted-info">Front-End Developer and Civil Industrial Engineer</span>.
-                    I know what you’re thinking, ¿Why is that I started in the web development world after my first
-                    career in Engineering? Well, the world is constantly changing in more ways than one, and to keep up
-                    to speed I need to be agile and evolve with it.
+                    I know what you’re thinking, ¿Why did I started in the web development world after my first
+                    career in Engineering? Well, the world is constantly changing in more ways than one, and to keep up I need to be agile and evolve with it.
                 </p>
 
                 <p>I discovered my interest and later passion on technology some years ago, but it wasn’t till I new
