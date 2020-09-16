@@ -160,6 +160,20 @@ img.img-project {
     }
 }
 
+@media all and (max-width: 1150px) {
+    .project-name {
+        font-size: 32px;
+    }
+    
+    .project-summary {
+        font-size: 22px;
+        letter-spacing: 0pt;
+    }
+    .container-links-project {
+        bottom: 1.2rem;
+    } 
+}
+
 @media all and (max-width:1024px) {
     .project-name {
         font-size: 30px;
@@ -168,6 +182,7 @@ img.img-project {
     .project-summary {
         font-size: 20px;
     }
+    
 }
 
 @media all and (max-width: 950px) {
@@ -200,7 +215,7 @@ img.img-project {
         min-width: 200px;
     }
     .container-img-projects:hover .container-project-info {
-        top: 3rem;
+        top: 3.8rem;
     }
     .project-name {
         font-size: 24px;
@@ -215,7 +230,7 @@ img.img-project {
     }
     .container-links-project {
         min-width: 200px;
-        bottom: 2.5rem;
+        bottom: 4.7rem;
     }    
     .link-project, .link-code {
         font-size: 18px;
@@ -241,6 +256,15 @@ img.img-project {
     }
 }
 
+@media all and (max-width: 679px) {
+    .container-img-projects:hover .container-project-info {
+        top: 2rem;
+    }
+    .container-links-project {
+        bottom: 1rem;
+    }
+}
+
 @media all and (max-width: 540px) {
     .container-img-projects:hover .container-project-info {
         top: 1.3rem;
@@ -255,10 +279,10 @@ img.img-project {
 
 @media all and (max-width: 500px) {
     .container-img-projects:hover .container-project-info {
-        top: 1px;
+        top: 1.2rem;
     }
     .container-links-project {
-        bottom: 1px;
+        bottom: 0.8rem;
     }
     .project-summary {
         font-size: 16px;
