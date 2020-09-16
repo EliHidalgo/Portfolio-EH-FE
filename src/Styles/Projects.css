@@ -279,10 +279,10 @@ img.img-project {
 
 @media all and (max-width: 500px) {
     .container-img-projects:hover .container-project-info {
-        top: 1.2rem;
+        top: 1px;
     }
     .container-links-project {
-        bottom: 0.8rem;
+        bottom: 1px;
     }
     .project-summary {
         font-size: 16px;
