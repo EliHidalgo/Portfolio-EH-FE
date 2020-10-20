@@ -36,7 +36,7 @@ const Contact = () => {
                 <a href="mailto:hidalgoeliana28@gmail.com" title="Send me an email!"><i className="fas fa-envelope"></i></a>
                 <a href="https://app.talento.laboratoria.la/profile/9UXFEVDwMGan6BXmMvyDvUzeTBT2" target="_blank" rel="noopener noreferrer"
                     title="Visit my Talent App from Laboratoria!"><i className="fas fa-laptop-code"></i></a>
-                <a href="https://drive.google.com/file/d/1NQWN9Q37kEscT5tRagsEUeNs9Bitt-2l/view?usp=sharing" download="Curriculo-Eliana-H.-Front-end.pdf" className="btn-cv" title="Download my CV and let's work together!">CV</a>
+                <a href="https://drive.google.com/file/d/1Td4ItQo2W1ALpEdXstnxolMH3EqRQtzh/view?usp=sharing" download="Curriculo-Eliana-H.-Front-end.pdf" className="btn-cv" title="Download my CV and let's work together!" target="_blank" rel="noopener noreferrer">CV</a>
                 {/*  <a href="./Downloadable/Curriculo-Eliana-H-Front-end_ci.pdf" download="" title="Currículum"><i
                     className="fas fa-download"></i></a> */}
 
